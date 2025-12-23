@@ -11,11 +11,11 @@ import random
 
 
 password = []  # or password = ""
-for i  in range(0,nr_letters +1):
+for i  in range(1,nr_letters +1):
     password += random.choice(letters)
-for j in range (0,nr_symbols +1):
+for j in range (1,nr_symbols +1):
     password += random.choice(symbols)
-for k in range(0,nr_numbers +1):
+for k in range(1,nr_numbers +1):
     password += random.choice(numbers)
 
 new_password = ''.join(password)
